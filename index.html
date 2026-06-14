@@ -55,19 +55,25 @@
     </p>
   </section>
 
-  <section id="contact" class="section">
-    <h2>Get a Free Estimate</h2>
-    <p>Send us a message for weekend demolition, cleanouts, and hauling.</p>
+<section id="contact" class="section">
+  <h2>Get a Free Estimate</h2>
+  <p>Send us a message for weekend demolition, cleanouts, and hauling.</p>
 
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="tel" placeholder="Phone Number" required />
-      <input type="email" placeholder="Email Address" />
-      <textarea placeholder="Tell us about the job" required></textarea>
-      <button type="submit">Submit Request</button>
-    </form>
-  </section>
+  <form action="https://formsubmit.co/civilx.llc@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="tel" name="phone" placeholder="Phone Number" required />
+    <input type="email" name="email" placeholder="Email Address" />
+    <textarea name="message" placeholder="Tell us about the job" required></textarea>
 
+    <input type="hidden" name="_subject" value="New Civil-X Estimate Request" />
+    <input type="hidden" name="_captcha" value="false" />
+
+    <button type="submit">Submit Request</button>
+  </form>
+
+  <p class="email-text">Email: civilx.llc@gmail.com</p>
+</section>
+     
   <footer>
     <p>© 2026 CIVIL-X LLC | Delaware</p>
   </footer>
