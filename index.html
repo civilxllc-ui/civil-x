@@ -57,13 +57,16 @@
 
 <section id="contact" class="section">
   <h2>Get a Free Estimate</h2>
-  <p>Send us a message for weekend demolition, cleanouts, and hauling.</p>
+  <p>Send us a message for weekend demolition, cleanouts, and hauling. Upload a photo so we can see what we are dealing with.</p>
 
-  <form action="https://formsubmit.co/civilx.llc@gmail.com" method="POST">
+  <form action="https://formsubmit.co/civilx.llc@gmail.com" method="POST" enctype="multipart/form-data">
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="tel" name="phone" placeholder="Phone Number" required />
     <input type="email" name="email" placeholder="Email Address" />
-    <textarea name="message" placeholder="Tell us about the job" required></textarea>
+    <textarea name="message" placeholder="Tell us about the job. Include location, type of work, and preferred day/time." required></textarea>
+
+    <label class="file-label">Upload Photos</label>
+    <input type="file" name="attachment" accept="image/png, image/jpeg, image/jpg" />
 
     <input type="hidden" name="_subject" value="New Civil-X Estimate Request" />
     <input type="hidden" name="_captcha" value="false" />
@@ -71,7 +74,12 @@
     <button type="submit">Submit Request</button>
   </form>
 
-  <p class="email-text">Email: civilx.llc@gmail.com</p>
+  <div class="contact-info">
+    <h3>Contact Civil-X</h3>
+    <p><strong>Email:</strong> <a href="mailto:civilx.llc@gmail.com">civilx.llc@gmail.com</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/civilxllc?igsh=MW9zdnEzbHA2OGJ2aA%3D%3D&utm_source=qr" target="_blank">@civilxllc</a></p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1EJckToDM2/?mibextid=wwXIfr" target="_blank">Civil - X</a></p>
+  </div>
 </section>
      
   <footer>
